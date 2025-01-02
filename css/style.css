@@ -391,6 +391,10 @@ h3.my-profession{
     display: inline-block;
 }
 
+
+
+
+
 .about .about-content .personal-info .buttons{
     margin-top:30px;
 }
@@ -443,7 +447,12 @@ h3.my-profession{
     line-height: 40px;
     
 }
-.about .about-content .education, 
+.about .about-content .education
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 60px;
+}
 .about .about-content .experience{
     flex: 0 0 50%;
     max-width: 50%;
